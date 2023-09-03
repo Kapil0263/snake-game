@@ -1,23 +1,25 @@
 body{
+    background: linear-gradient(white,rgb(88, 233, 88));
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: black;
+    /* background-color: black; */
 }
 #game-board{
-    background-color: #ccc;
+    background: linear-gradient(rgb(144, 190, 144),yellow);
     width: 100vmin;
     height: 100vmin;
+    border:2px solid black;
     display: grid;
     grid-template-rows: repeat(21,1fr);
     grid-template-columns: repeat(21,1fr);
 }
 
 .snake{
-    background-color: hsl(200,100%,50%);
+    background-color: hsl(150, 66%, 49%);
     border: .25vmin solid black;
 }
 
